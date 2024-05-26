@@ -1,0 +1,323 @@
+.footer{
+    position: relative;
+    top: 4000px;
+    background-color: rgb(17, 31, 17);
+    color: white;
+    padding: 80px 20px 100px 80px;
+    
+  }
+  .footer.about-page {
+position: absolute;  
+top: 2300px;
+width: 100%;
+}
+.footer.contact-page{
+  position: absolute;  
+top: 1400px;
+width: 100%;
+}
+
+.footer.apple_page{
+  position: absolute;  
+top: 1320px;
+width: 100%;
+}
+.banana_page{
+  position: absolute;  
+  top: 1200px;
+  width: 100%;
+}
+.footer.orange_page{
+  position: absolute;  
+  top: 1200px;
+  width: 100%;
+}
+.mango_page{
+  position: absolute;  
+  top: 1200px;
+  width: 100%;
+}
+.pineapple_page{
+  position: absolute;  
+  top: 1200px;
+  width: 100%;
+}
+.grape_page{
+  position: absolute;  
+  top: 1300px;
+  width: 100%;
+}
+.carrot_page{
+  position: absolute;  
+  top: 1200px;
+  width: 100%;
+}
+.potato_page{
+  position: absolute;  
+  top: 1200px;
+  width: 100%;
+}
+.tomato_page{
+  position: absolute;  
+  top: 1250px;
+  width: 100%;
+}
+.onion_page{
+  position: absolute;  
+  top: 1300px;
+  width: 100%;
+}
+.beetroot_page{
+  position: absolute;  
+  top: 1400px;
+  width: 100%;
+}
+.footer.garlic_page{
+  position: absolute;  
+  top: 1250px;
+  width: 100%;
+}
+.cauliflower_page{
+  position: absolute;  
+  top: 1350px;
+  width: 100%;
+}
+.beans_page{
+  position: absolute;  
+  top: 1250px;
+  width: 100%;
+}
+.rose_page{
+  position: absolute;  
+  top: 1250px;
+  width: 100%;
+}
+.jasmine_page{
+  position: absolute;  
+  top: 1250px;
+  width: 100%;
+}
+  .IoLeaf{
+    transform: rotate(-25deg);
+    color: rgb(125, 186, 3);
+    position: relative;
+    top: 4px;
+  }
+  .contact{
+    position: relative;
+    top: 3px;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(125, 186, 3);
+  }
+  .footermenu {
+    display: flex;
+  }
+  .links span{
+    color: white;
+  }
+  .links span:hover{
+    color: rgb(255, 170, 0);;
+  }
+  .logofooter p {
+      width: 200px;
+  }
+  .links p{
+    padding-bottom: 10px;
+  }
+  .links h2{
+    padding-bottom: 10px;
+  }
+  .links{
+    padding-left: 80px;
+  }
+  .link{
+    padding-left: 80px;
+  }
+  .link {
+    width: 300px;
+  }
+  .link h2{
+    padding-bottom: 10px;
+
+  }
+  .link p{
+    padding-bottom: 10px;
+cursor: pointer;
+  }
+  #linkcontact:hover{
+    color: rgb(255, 170, 0);
+  }
+  .logofooter h1{
+   padding-bottom: 10px;
+  }
+  .icons p{
+border: 1px solid white;  
+width: 20px;
+padding-left: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 20px;
+border-radius: 100%;
+padding-bottom: 10px;
+cursor: pointer;
+}
+.FaFacebookF{
+    position: relative;
+    right: 8px;
+}
+.icons h2{
+padding-bottom: 10px;
+    }
+.inconsss{
+        display: flex;
+        justify-content: space-between;
+        width: 150px;
+}
+.inconsss p {
+    transition:background-color 0.5s  ease;
+}
+.inconsss p:hover{
+    background-image: linear-gradient(110deg, rgb(255, 170, 0), rgb(125, 186, 3));
+    background-clip:  border-box;
+}
+.hr hr{
+   position: relative;
+   top: 40px;
+   width: 1050px;
+}
+.copyright{
+   position: absolute;
+   top: 410px;
+   left: 450px;
+}
+
+@media (max-width:770px){
+    .footer{
+        width: 770px;
+        position: absolute;
+        top: 5000px;
+    }
+    .logofooter{
+        position: absolute;
+  left: 20px;
+  top: 80px;
+    }
+    .logofooter p{
+        width: 130px;
+    }
+    .links{
+        position: relative;
+        padding-left: 5px;
+        left: 100px;
+    }
+    .link{
+    position: relative;
+    left: 30px;
+    width: 235px;
+    }
+    .icons{
+        position: relative;
+        left: -60px;
+        top: 20px;
+    }
+    .hr hr{
+        position: relative;
+        width: 710px;
+    }
+    .copyright{
+        position: absolute;
+   top: 440px;
+   left: 200px;
+    }
+
+    .footer.about-page{
+      position: absolute;  
+top: 3800px;
+width: 770px;
+    }
+    .footer.contact-page{
+      position: absolute;  
+    width: 770px;
+    }
+    .footer.apple_page{
+      position: absolute;  
+    top:2000px;
+    width: 770px;
+    }
+    .banana_page{
+      position: absolute;  
+      top: 1800px;
+      width: 770px;
+    }
+    .footer.orange_page{
+      position: absolute;  
+      top: 1900px;
+      width: 770px;
+    }
+    .mango_page{
+      position: absolute;  
+      top: 1900px;
+      width: 770px;
+    }
+    .pineapple_page{
+      position: absolute;  
+      top: 1900px;
+      width: 770px;
+    }
+    .grape_page{
+      position: absolute;  
+      top: 2000px;
+      width: 770px;
+    }
+    .carrot_page{
+      position: absolute;  
+      top: 1800px;
+      width: 770px;
+    }
+    .potato_page{
+      position: absolute;  
+      top: 1850px;
+      width: 770px;
+    }
+    .tomato_page{
+      position: absolute;  
+      top: 1900px;
+      width: 770px;
+    }
+    .onion_page{
+      position: absolute;  
+      top: 2000px;
+      width: 770px;
+    }
+    .beetroot_page{
+      position: absolute;  
+      top: 2200px;
+      width: 770px;
+    }
+    .footer.garlic_page{
+      position: absolute;  
+      top: 1900px;
+      width: 770px;
+    }
+    .cauliflower_page{
+      position: absolute;  
+      top: 2050px;
+      width: 770px;
+    }
+    .beans_page{
+      position: absolute;  
+      top: 1920px;
+      width: 770px;
+    }
+    .rose_page{
+      position: absolute;  
+      top: 1900px;
+      width: 770px;
+    }
+    .jasmine_page{
+      position: absolute;  
+      top: 1900px;
+      width: 770px;
+    }
+}

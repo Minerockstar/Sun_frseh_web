@@ -1,0 +1,103 @@
+.bar{
+    display: block;
+    font-size: 20px;
+    position: absolute;
+    left: 60px;
+    width: 50px;
+    top: 15px;
+  }
+  .navbars{
+    width: 200px;
+  }
+  .menu{
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+  }
+  .menu li{
+    padding-top: 50px;
+  }
+  .logo{
+    position: absolute;
+    left: 360px;
+  }
+  .menu{
+    background-color: gray;
+    padding-left: 310px;
+    padding-right: 190px;
+    padding-bottom: 50px;
+  }
+ 
+  .navlist{
+    width: 500px;
+  }
+ .nabar{
+  width: 770px;
+  /* height: 60vh; */
+ }
+  /* home */
+  .rightdiv{
+    position: absolute;
+    left: 300px;
+    top: 420px;
+  }
+  .scrollToTopdiv{
+    position: absolute;
+    left: 600px;
+  }
+  .scrollToTop{
+    position: fixed;
+    left: 600px;
+    width: 100px;
+  }
+  .body{
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    padding-top: 2px ;
+    padding-bottom: 2px ;
+  }
+  .body h1{
+     font-size: 15px;
+     padding: 15px 15px 15px 15px;
+     position: absolute;
+     top: -120px;
+     left: 70px;
+  }
+  .body h2{
+    font-size: 10px;
+    position: absolute;
+   
+ }
+ .body button{
+  padding: 2px 2px 2px 2px;
+  width: 80px;
+  font-size: 10px;
+  position: absolute;
+  top: -55px;
+  left: 70px;
+}
+.arroicon{
+  position: relative;
+  top: 2px;
+}
+<div id='why'>
+{/* <div className='whychoose'>
+  <img src="https://img.freepik.com/premium-photo/powder-white-background-with-red-chilies-generative-ai_681945-13250.jpg?w=1060" alt="" />
+<div className='totatoimg'>
+<img className='' src="https://img.freepik.com/premium-photo/amazing-food-wallpaper-4k-background_839182-1230.jpg?w=900" alt="" />
+</div>
+</div> */}
+</div>
+const [isAboutPage, setIsAboutPage] = useState(false);
+const [isContactPage, setIsContactPage] = useState(false);
+
+
+useEffect(() => {
+  setIsAboutPage(location.pathname === '/about');
+  setIsContactPage(location.pathname === '/contact');
+}, [location.pathname]);
+if (isAboutPage || isContactPage) {
+return (
+  <div className={`footer ${isAboutPage ? 'about-page' : ''} ${isContactPage ? 'contact-page' : ''}`}>

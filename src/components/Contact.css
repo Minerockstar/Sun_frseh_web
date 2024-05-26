@@ -1,0 +1,171 @@
+.contatus {
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    background-color: #000000;
+    z-index: -4;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+   color: white;
+  }
+  
+  .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+    background-color: #000000;
+    background-image: url('https://img.freepik.com/premium-photo/fresh-organic-vegetable_114106-1589.jpg');
+    background-size: cover;
+    opacity: 0.80;
+    z-index: -3;
+  }
+  
+  .contentofContact {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: black;   */
+    mix-blend-mode: overlay;
+    z-index: -1;
+  }
+   .bg::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.632); 
+  }
+  .bodyOfContact{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    color: white;
+  }
+.bodyOfContact h1{
+    font-size: 50px;
+}
+.linkcontact{
+    color: white;
+}
+.contactSapn{
+    position: absolute;
+    top: 100px;
+}
+.contactSapn p{
+    font-size: 23px;
+    font-weight: 600;
+}
+.contactSapn .aboutContact:hover{
+    color: rgb(255, 170, 0);
+  }
+  .contactSapn .linkcontact:hover{
+    color: rgb(255, 170, 0);
+  }
+  .IoLeafacontact{
+    transform: rotate(-25deg);
+    color: rgb(115, 167, 10);
+    position: relative;
+  }
+  .getIntouchContact{
+    position: absolute;
+    top: 300px;
+  }
+  .constactget h2{
+    color: black;
+  }
+ 
+  .locationContact{
+    color: black;
+    font-size: 30px;
+    border-radius: 100%;
+   position: relative;
+   top: 20px;
+  }
+  .contactOfdivloc p{
+   color: black; 
+  }
+  .contactOfdivloc h2{
+    color: black; 
+   }
+   .maindivOfLoc{
+    display: flex;
+position: absolute;
+top: 70px;
+   }
+   .contactOfdivloc{
+    width: 300px;
+
+   }
+   .maindivOfLoc div{
+    margin-left: 60px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 20px 45px 0 rgba(128, 128, 128, 0.719);
+   }
+   .contactOfdivloc h2{
+    padding-bottom: 20px;
+   }
+   .contactOfdivloc p{
+    padding-bottom: 20px;
+    cursor: pointer;
+   }
+   .map{
+    position: absolute;
+    top: 400px;
+   }
+   @media (max-width:770px){
+    .contatus {
+        position: absolute;
+        width: 770px;
+        height: 80vh;
+        background-color: #000000;
+      }
+      .bg {
+        position: absolute;
+        width: 100%;
+        height: 80vh;
+      }
+      .bodyOfContact{
+        position: absolute;
+        top: 200px;
+        left: 260px;
+        color: white;
+      }
+    .bodyOfContact h1{
+        font-size: 50px;
+        width: 500px;
+    }
+    .linkcontact{
+        color: white;
+        position: absolute;
+        left: 220px;
+    }
+      .getIntouchContact{
+        position: absolute;
+        top: 300px;
+      }
+       .maindivOfLoc{
+        display: grid;
+        grid-template-columns: repeat(2, 320px);
+        grid-template-rows: repeat(1,);
+        gap: 50px;
+    position: absolute;
+    top: 70px;
+    left: -280px;
+    
+       }
+       .maps{
+        position: absolute;
+        top: 130px;
+        width: 650px;
+        left: -200px;
+        height: 365px;
+       }
+
+   }

@@ -1,0 +1,267 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: none;
+    text-decoration: none;
+}
+.about {
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    background-color: #000000;
+    z-index: -2;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+   color: white;
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    background-image: url('https://img.freepik.com/premium-photo/set-different-chips-from-dried-fruits_290431-25902.jpg?w=900');
+    background-size: cover;
+    opacity: 0.80;
+    z-index: -3;
+  }
+  
+  .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: black;   */
+    mix-blend-mode: overlay;
+    z-index: -1;
+  }
+  .about .background::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.632); /* Adjust the overlay color and opacity as needed */
+  }
+  .aboutBody h1{
+  font-size: 50px;
+  font-weight: 800;
+  /* padding-bottom: 20px; */
+  position: relative;
+  top: 10px;
+  color: white;
+  }
+  .aboutBody p{
+    font-size: 23px;
+    font-weight: 600;
+    position: relative;
+    top: 50px;
+    color: white;
+    cursor: pointer !important;
+  }
+  .home {
+    color: white;
+    cursor: pointer;
+  }
+  .aboutBody {
+    position: absolute;
+    left: 50px;
+    top: 200px;
+  }
+  .aboutBody .home:hover{
+    color: rgb(255, 170, 0);
+  }
+  .aboutBody .abouts:hover{
+    color: rgb(255, 170, 0);
+  }
+  .aboutusss{
+    position: absolute;
+    left: 50px;
+  }
+  .aboutusss h2{
+    padding-bottom: 20px;
+  }
+  .aboutusss h1{
+    width: 600px;
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: rgb(110, 4, 4);
+  }
+  .aboutusss p{
+    width: 600px;
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  .IoLeafsss{
+    transform: rotate(-25deg);
+    color: rgb(115, 167, 10);
+    position: relative;
+  }
+  .abotushead{
+    position: absolute;
+    top: 500px;
+  }
+  .imggrainss img:hover {
+    transform: scale(1.1);
+  }
+  .imggrainss img{
+    padding-bottom: 20px;
+    width: 500px;
+    height: 250px;
+  }
+  .imggrainss{
+    position: absolute;
+    left: 700px;
+  }
+  .shree{
+    font-weight: 900;
+  }
+  .para p{
+     font-size: 20px;
+     padding-bottom: 20px;
+     width: 1200px;
+
+  }
+  .para{
+    position: absolute;
+    top: 580px;
+    left: 50px;
+  }
+  .whypage{
+    position: absolute;
+    top: 1600px;
+  }
+  .whypage img:hover {
+    transform: scale(1.1);
+  }
+  .whypage img{
+    width: 400px;
+    height: 260px;
+    border-bottom-left-radius: 70px;
+  }
+  .totatoimgggg{
+    position: absolute;
+    /* left: 200px; */
+    top: -150px;
+    left: 200px;
+  }
+  .totatoimgggg img{
+    padding-bottom: 20px;
+    border-bottom-left-radius: 80px;
+  }
+  .whypage{
+    background-color: rgb(228, 228, 228);
+    position: absolute;
+    width: 1263px;
+    height: 700px;  
+  }
+  @media (max-width:770px){
+    .background {
+        position: absolute;
+        width: 770px;
+        height: 100%;
+        
+      }
+     .about{
+      width: 770px;
+     }
+      .aboutBody h1{
+      font-size: 50px;
+      font-weight: 800;
+      position: relative;
+      top: -10px;
+      left: 100px;
+      color: white;
+      width: 600px;
+      }
+      .aboutBody p{
+        font-size: 23px;
+        font-weight: 600;
+        position: relative;
+        top: 50px;
+        left: 200px;
+        width: 300px;
+        color: white;
+        cursor: pointer ;
+      }
+      .linkHome{
+          position: absolute;
+          top: -0px;
+          left: 200px;
+      }
+      .slash{
+        position: absolute;
+          left: 140px;
+      }
+      .home {
+        color: white;
+        cursor: pointer;
+        width: 100px;
+      }
+      .aboutBody {
+        position: absolute;
+        left: 50px;
+        top: 200px;
+      }
+      .aboutBody .home:hover{
+        color: rgb(255, 170, 0);
+      }
+      .aboutBody .abouts:hover{
+        color: rgb(255, 170, 0);
+      }
+      .para p{
+        font-size: 20px;
+        padding-bottom: 20px;
+        width: 600px;
+        top: 500px;
+        position: relative;
+      }
+      .imggrainss{
+        position: absolute;
+        left: 100px;
+        top: 550px;
+      }
+      .whypage{
+        background-color: rgb(228, 228, 228);
+        position: absolute;
+        width: 770px;
+        height: 620px;  
+      }
+      .totatoimgggg img{
+        position: relative;
+        left: 50px;
+      }
+      .red{
+        position: absolute;
+        left: 20px;
+      }
+      .whypage{
+        position: absolute;
+        top: 2500px;
+      }
+      .chooseTopic h1{
+        width: 600px;
+        font-size: 40px;
+        padding-bottom: 20px;
+        color: rgb(110, 4, 4);
+      }
+      .Flavorful h3{
+        font-size: 28px;
+        }
+        .whyyyChoose{
+            font-size: 28px;
+        }
+        .Flavorful p{
+          width: 600px;
+          font-size: 20px;
+          color: #403c3c;
+          padding-bottom: 10px;
+          }
+  }
